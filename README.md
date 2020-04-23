@@ -1,24 +1,41 @@
-# README
+Note:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo houses the frontend code for Watchlist. Please refer here for the project's backend code and installation instructions. https://github.com/daveholmes88/watchlistFrontEnd
 
-Things you may want to cover:
+Watchlist:
 
-* Ruby version
+An application to browse movies and add them to a "seen" list and a "watchlist"
 
-* System dependencies
+Demo:
 
-* Configuration
+A video demo of Watchlist is available here https://www.youtube.com/watch?v=uW_tenUXInE&t=
 
-* Database creation
+Usage and Features:
 
-* Database initialization
+Watchlist has three main features, the ability to browse the database of movies, the ability to add any movie to a personal "seen" list or "watchlist", and click on any movie to learn more about it. 
 
-* How to run the test suite
+Backend Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+Rails 6
 
-* Deployment instructions
+SQL
 
-* ...
+Backend Installation Overview:
+
+After cloning this repo, first run the Rails server:
+
+cd HopsAlongBackend
+
+bundle install
+
+Database installation:
+
+rails db:create
+
+rails db:migrate
+
+rails db:seed
+
+Run Rails server:
+
+rails s
